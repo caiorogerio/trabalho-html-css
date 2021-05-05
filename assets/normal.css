@@ -1,6 +1,6 @@
 body, p, h1, h2, h3, h4, h5, h6, 
 header, content, section, footer, 
-aside, menu,
+nav, menu,
 div, span, img {
     margin: 0;
     padding: 0;
@@ -55,48 +55,49 @@ header p img {
     height: 100%;
 }
 
-aside {
+nav {
     overflow-x: scroll;
     overflow-y: hidden;
     background: #cccccc;
 }
 
-aside menu {
+nav menu {
     max-width: 99999999px;
     white-space: nowrap;
 }
 
-aside menu,
-aside menu li {
+nav menu,
+nav menu li {
     list-style: none;
     padding: 0;
     margin: 0;
     height: 100%;
 }
 
-aside menu li {
+nav menu li {
     display: inline-block;
 }
 
-aside menu li a {
+nav menu li a {
     display: inline-block;
     height: 120px;
     transition: background-color 1s; 
 }
 
-aside menu li a:hover {
+nav menu li.ativo a,
+nav menu li a:hover {
     background-color: navy;
     color: white;
 }
 
-aside menu li.curriculo img {
+nav menu li.curriculo img {
     display: inline-block;
     border-radius: 50%;
     height: calc(100% - 20px);
     margin: 10px;
 }
 
-aside menu li.curriculo .name {
+nav menu li.curriculo .name {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
@@ -105,13 +106,17 @@ aside menu li.curriculo .name {
     font-weight: bold;
 }
 
-section {
+article {
     padding: 20px;
     font-size: 16px;
 }
 
-section p {
+article p {
     margin: 10px 0;
+}
+
+article header small {
+    display: block;
 }
 
 footer {
