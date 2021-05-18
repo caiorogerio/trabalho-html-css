@@ -149,7 +149,7 @@ article section {
 }
 
 footer {
-    position: static;
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
