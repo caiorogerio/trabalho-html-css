@@ -1,6 +1,7 @@
 body {
     --tamanho-fonte: 10px;
-    background: transparent url('/assets/images/bg.png') repeat-x 0 0;
+    background: transparent url('/assets/images/bg.png') repeat fixed 0;
+    background-size: 1500px auto;
     color: #fff;
 }
 
