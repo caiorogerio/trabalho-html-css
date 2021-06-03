@@ -3,5 +3,5 @@ body {
 }
 
 body > header h1 + p + p + p a {
-    background-image: url('/assets/images/zoom-out.png');
+    background-image: url('images/zoom-out.png');
 }

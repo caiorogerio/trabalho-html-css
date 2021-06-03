@@ -1,6 +1,6 @@
 body {
     --tamanho-fonte: 10px;
-    background: transparent url('/assets/images/bg.png') repeat fixed 0;
+    background: transparent url('images/bg.png') repeat fixed 0;
     background-size: 1500px auto;
     color: #fff;
 }
@@ -68,7 +68,7 @@ body > header h1 + p + p + p {
 body > header h1 + p + p + p a {
     display: block;
     text-indent: -9999px;
-    background: transparent url('/assets/images/zoom-in.png') no-repeat 0 0;
+    background: transparent url('images/zoom-in.png') no-repeat 0 0;
     background-size: 30px;
     height: 100%;
     width: 100%;
